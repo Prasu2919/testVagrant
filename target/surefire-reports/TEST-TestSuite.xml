@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.434" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/priyankagrawal/IdeaProjects/TestVagrant/target/test-classes:/Users/priyankagrawal/IdeaProjects/TestVagrant/target/classes:/Users/priyankagrawal/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/priyankagrawal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/Users/priyankagrawal/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/priyankagrawal/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/priyankagrawal/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/priyankagrawal/.m2/repository/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/priyankagrawal/IdeaProjects/TestVagrant/target/surefire/surefirebooter-20221229234159786_3.jar /Users/priyankagrawal/IdeaProjects/TestVagrant/target/surefire 2022-12-29T23-41-59_644-jvmRun1 surefire-20221229234159786_1tmp surefire_0-20221229234159786_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/priyankagrawal/IdeaProjects/TestVagrant/target/test-classes:/Users/priyankagrawal/IdeaProjects/TestVagrant/target/classes:/Users/priyankagrawal/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/priyankagrawal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/priyankagrawal/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/Users/priyankagrawal/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/priyankagrawal/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/priyankagrawal/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/priyankagrawal/.m2/repository/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/priyankagrawal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/priyankagrawal/IdeaProjects/TestVagrant"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/priyankagrawal/IdeaProjects/TestVagrant/target/surefire/surefirebooter-20221229234159786_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="priyankagrawal"/>
+    <property name="stdout.encoding" value="US-ASCII"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/priyankagrawal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/4t/bq47rtxj2xs5q9l11ph865jc0000gn/T/"/>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="/Users/priyankagrawal/IdeaProjects/TestVagrant"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/priyankagrawal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="US-ASCII"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="verifyForiegnPlayer" classname="testScenarios" time="0.001">
+    <system-out><![CDATA[{
+  "name": "Royal Challengers Bangalore",
+  "location": "Bangalore",
+  "player": [
+    {
+      "name": "Faf Du Plessis",
+      "country": "South Africa",
+      "role": "Batsman",
+      "price-in-crores": "7"
+    },
+    {
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "Batsman",
+      "price-in-crores": "15"
+    },
+    {
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "role": "Batsman",
+      "price-in-crores": "11"
+    },
+    {
+      "name": "Mohammad Siraj",
+      "country": "India",
+      "role": "Bowler",
+      "price-in-crores": "7"
+    },
+    {
+      "name": "Harshal Patel",
+      "country": "India",
+      "role": "Bowler",
+      "price-in-crores": "10.75"
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "country": "Srilanka",
+      "role": "Bowler",
+      "price-in-crores": "10.75"
+    },
+    {
+      "name": "Dinesh Karthik",
+      "country": "India",
+      "role": "Wicket-keeper",
+      "price-in-crores": "5.5"
+    },
+    {
+      "name": "Shahbaz Ahmed",
+      "country": "India",
+      "role": "All-Rounder",
+      "price-in-crores": "2.4"
+    },
+    {
+      "name": "Rajat Patidar",
+      "country": "India",
+      "role": "Batsman",
+      "price-in-crores": "0.20"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "country": "Australia",
+      "role": "Bowler",
+      "price-in-crores": "7.75"
+    },
+    {
+      "name": "Mahipal Lomror",
+      "country": "India",
+      "role": "Bowler",
+      "price-in-crores": "7.75"
+    }
+  ]
+}]]></system-out>
+  </testcase>
+  <testcase name="verifyWicketKeeper" classname="testScenarios" time="0"/>
+</testsuite>
